@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "my-swiper":"/components/my-swiper/my-swiper",
+    "my-base-info": "./child-components/my-base-info/my-base-info",
+    "my-shop-info": "./child-components/my-shop-info/my-shop-info",
+    "my-detail-info": "./child-components/my-detail-info/my-detail-info",
+    "my-param-info": "./child-components/my-param-info/my-param-info",
+    "my-comment-info": "./child-components/my-comment-info/my-comment-info",
+    "my-recommend-info": "./child-components/my-recommend-info/my-recommend-info",
+    "my-bottom-bar": "./child-components/my-bottom-bar/my-bottom-bar"
+  }
+}

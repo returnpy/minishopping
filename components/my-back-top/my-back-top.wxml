@@ -1,0 +1,4 @@
+<!--components/my-back-top/my-back-top.wxml-->
+<view bindtap="handleBackTop">
+  <image src="/assets/common/top.png" mode="widthFix" class="image"></image>
+</view>

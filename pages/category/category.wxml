@@ -1,0 +1,4 @@
+<view class="category">
+  <my-menu categories="{{categories}}" bind:menuclick="menuClick" />
+  <my-content subcategories="{{categoryData[currentIndex].subcategories}}" categoryDetail="{{categoryData[currentIndex].categoryDetail}}" />
+</view>

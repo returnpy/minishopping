@@ -1,0 +1,20 @@
+<!-- 1.轮播图 -->
+<my-swiper list="{{banners}}" />
+
+<!-- 2.推荐 -->
+<my-recommends recommends="{{recommends}}" bind:handleTabFixed="handleTabFixed"/>
+
+<!-- 3.本周流行 -->
+<my-popular />
+
+<!-- 4.tab-control -->
+<my-tab-control titles="{{titles}}" class="{{isTabFixed ? 'tab_control' : ''}}" bind:handleTabControl="handleTabControl" id="my-recommends" />
+
+<!-- 占位tab-control,防止抖的那一下 -->
+<my-tab-control titles="{{titles}}" wx:if="{{isTabFixed}}"/>
+
+<!-- 5.商品展示 -->
+<my-goods goods="{{goods[currentType].list}}" />
+
+<!-- 5.回到顶部 -->
+<my-back-top wx:if="{{isBackTop}}" />

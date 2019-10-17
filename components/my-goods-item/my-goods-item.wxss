@@ -1,0 +1,32 @@
+/* components/my-goods-item/my-goods-item.wxss */
+.image{
+  width: 100%;
+  padding-bottom: 85rpx;
+}
+.good-info{
+  position: absolute;
+  bottom: 5rpx;
+  left: 0;
+  right: 0;
+  font-size: 28rpx;
+  text-align: center
+}
+.good-title{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.good-price{
+  text-align: center;
+  color: #ff5777;
+}
+.cfav-icon{
+  width: 30rpx;
+  height: 30rpx;
+  vertical-align: middle;
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 3rpx;
+  padding: 0 5rpx 0 10rpx;
+}

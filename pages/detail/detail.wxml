@@ -1,0 +1,25 @@
+<view>
+  <!-- 1.轮播图 -->
+  <my-swiper class="d_swiper" list="{{topImages}}"></my-swiper>
+
+  <!-- 2.商品基本信息 -->
+  <my-base-info baseInfo="{{baseInfo}}" />
+
+  <!-- 3.店铺信息 -->
+  <my-shop-info shopInfo="{{shopInfo}}" />
+
+  <!-- 4.商品详情 -->
+  <my-detail-info detailInfo="{{detailInfo}}" />
+
+  <!-- 5.商品参数 -->
+  <my-param-info paramInfo="{{paramInfo}}" />
+
+  <!-- 6.评价信息 -->
+  <my-comment-info commentInfo="{{commentInfo}}" />
+
+  <!-- 7.商品推荐-->
+  <my-recommend-info recommends="{{recommends}}" />
+
+  <!-- 8.底部选择栏 -->
+  <my-bottom-bar bind:addcart="onAddCart" />
+</view>

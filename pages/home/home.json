@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "my-swiper":"/components/my-swiper/my-swiper",
+    "my-tab-control":"/components/my-tab-control/my-tab-control",
+    "my-goods":"/components/my-goods/my-goods",
+    "my-back-top":"/components/my-back-top/my-back-top",
+    "my-recommends":"./child-components/my-recommends/my-recommends",
+    "my-popular":"./child-components/my-popular/my-popular"
+  },
+  "navigationBarTitleText": "购物街"
+}

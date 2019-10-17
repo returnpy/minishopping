@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "my-menu":"./child-components/my-menu/my-menu",
+    "my-content": "./child-components/my-content/my-content"
+  },
+  "navigationBarTitleText": "商品分类"
+}
